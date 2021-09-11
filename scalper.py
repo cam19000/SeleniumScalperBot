@@ -52,7 +52,7 @@ time.sleep(7)
 #All other information is already filled out if you are logged into a valid account with payment info, only thing left is the cvv
 cvvField = browser.find_element_by_id("cvv")
 
-cvvField.send_keys("649")
+cvvField.send_keys("YOUR CVV")
 print("ENTERED CVV")
 
 time.sleep(3)
